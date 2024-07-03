@@ -1,0 +1,46 @@
+{
+  "PHONES": [
+    {
+      "name": "iphone",
+      "series": "15 pro",
+      "price": 112000,
+      "id": "4648"
+    },
+    {
+      "name": "iphone",
+      "series": "15 plus",
+      "price": 90000,
+      "id": "724c"
+    },
+    {
+      "name": "iphone",
+      "series": "14 pro",
+      "price": 102000,
+      "id": "6512"
+    },
+    {
+      "name": "onplus",
+      "series": "11R",
+      "price": 50000,
+      "id": "deb7"
+    },
+    {
+      "name": "oneplus",
+      "series": "12R",
+      "price": 60000,
+      "id": "d45a"
+    },
+    {
+      "id": "8ad5",
+      "name": "Samsung",
+      "series": "s24 U",
+      "price": 110000
+    },
+    {
+      "id": "0e94",
+      "name": "Samsung",
+      "series": "s24 U",
+      "price": 110000
+    }
+  ]
+}
