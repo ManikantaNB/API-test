@@ -41,6 +41,12 @@
       "name": "Samsung",
       "series": "s24 U",
       "price": 110000
+    },
+    {
+      "id": "3d0d",
+      "name": "Samsung",
+      "series": "A22",
+      "price": 10000
     }
   ]
 }
