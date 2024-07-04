@@ -4,7 +4,7 @@
 import controller from '../controller/index.controller'
 
 //GET REQUEST
-describe('GET Requests', ()=> {
+describe.only('GET Requests', ()=> {
     
     it('GET /PHONES', async()=>{
         const res = await controller.getProduct()
@@ -17,7 +17,7 @@ describe('GET Requests', ()=> {
 
 //POST REQUEST
 let postProduct;
-describe('Post requests', ()=>{
+describe.only('Post requests', ()=>{
 
     // it('POST /PHONES', async()=>{
     //     const data ={
