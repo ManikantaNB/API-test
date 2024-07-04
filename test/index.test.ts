@@ -75,7 +75,7 @@ describe('PUT requests', ()=>{
         const res = await controller
         .putProduct(data, postProduct.body.id)
         console.log(res.body)
-        expect(res.statusCode).toBe(201)
+        expect(res.statusCode).toBe(200)
         expect(res.body.name).toBe(data.name)
     })
 
