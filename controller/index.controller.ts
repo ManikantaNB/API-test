@@ -2,6 +2,11 @@ import * as supertest from 'supertest';
 import config from '../config/base.config'
 const request = supertest(config.baseUrl)
 
+// const supertest = require('supertest');
+// const config = require('../config/base.config');
+// const request = supertest(config.baseUrl);
+
+
 class productController{
     getProduct(){
         return request.get('/PHONES')

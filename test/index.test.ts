@@ -2,9 +2,10 @@
 // import * as supertest from 'supertest';
 // const request = supertest('http://localhost:3000')
 import controller from '../controller/index.controller'
+//const controller = require('../controller/index.controller')
 
 //GET REQUEST
-describe('GET Requests', ()=> {
+describe.only('GET Requests', ()=> {
     
     it('GET /PHONES', async()=>{
         const res = await controller.getProduct()
